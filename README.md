@@ -69,7 +69,20 @@
       "path.target_path" - Target all paths with the class name "target_path".
     </li>
   </ul>
-  <br><br>
-  <br><br>
-  
+  <br><br><br>
+  <h2>Veco Functions</h2>
+  <div align=left>
+    <h3>veco_vectorize(element, resource_name)</h3>
+    Imports an SVG file's markup into an SVG element in the DOM. Required to use any of the colorize functions.
+    <br><br>
+    <h3>veco_colorize_by_id(id, color, css_path_selector)</h3>
+    Changes the color of an SVG by ID. CSS selector specifies the target paths in the SVG markup.
+    <br><br>
+    <h3>veco_colorize_by_class_name(class_name, color, css_path_selector)</h3>
+    Changes the color of an SVG by class name. CSS selector specifies the target paths in the SVG markup.
+    <br><br>
+    <h3>veco_vectorize_all(color, css_path_selector)</h3>
+    Changes the color of all SVGs. CSS selector specifies the target paths in the SVG markup.
+    <br><br>
+  </div>
 </div>
