@@ -1,3 +1,4 @@
+const version = "1.0.2";
 const veco_class_name = "__veco_element";
 
 // CONVERT A BLANK SVG ELEMENT INTO ITS NATIVE MARKUP

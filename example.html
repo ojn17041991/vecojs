@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Veco Example</title>
+        <script type="text/javascript" src="veco.js"></script>
+    </head>
+    <body>
+        <svg id="my_svg" onload="veco_vectorize(this, 'veco.svg')"/>
+        <input type=color onchange="veco_colorize_by_id('my_svg', this.value, 'g g path')"/>
+    </body>
+</html>

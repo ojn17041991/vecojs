@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="vecojs_demo_icon.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powermask"
+       id="path-effect1012"
+       is_visible="true"
+       lpeversion="1"
+       uri="#mask-powermask-path-effect1012"
+       invert="false"
+       hide_mask="false"
+       background="true"
+       background_color="#ffffffff" />
+    <rect
+       x="-17.10525"
+       y="-18.040693"
+       width="20.446119"
+       height="16.971615"
+       id="rect880" />
+    <rect
+       x="4.1426777"
+       y="17.506154"
+       width="49.043958"
+       height="35.546847"
+       id="rect835" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask-powermask-path-effect1012">
+      <path
+         id="mask-powermask-path-effect1012_box"
+         style="fill:#ffffff;fill-opacity:1"
+         d="M -4.4892478,-2.6183612 H 65.006304 V 66.877191 H -4.4892478 Z" />
+      <g
+         id="g1010"
+         transform="matrix(1.8723723,0,0,1.8723723,-17.731187,43.915684)"
+         style="fill:#000000;stroke:none">
+        <path
+           d="m 15.530303,6.9081236 1.152278,-2.156496 q 0.85616,-1.5835775 1.364708,-2.6392949 0.135175,-0.2832414 0.212426,-0.3733638 0.08368,-0.09655 0.19956,-0.09655 0.109443,0 0.193127,0.077251 0.08368,0.070818 0.08368,0.173801 0,0.1094431 -0.135175,0.3476153 -0.03219,0.057925 -0.06439,0.1094431 -0.06438,0.1029833 -0.167368,0.2896798 L 13.605557,11.22757 8.1080996,1.7647361 h 4.5125494 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Broadway;-inkscape-font-specification:Broadway;white-space:pre;fill:#000000;stroke:none;stroke-width:2.66934"
+           id="path1002" />
+        <path
+           d="m 22.463277,1.9385264 -0.03219,4.5640465 0.03219,3.8752571 q 0.334741,0.04506 0.553609,0.04506 0.630857,0 1.293898,-0.225319 0.663041,-0.2253191 1.171588,-0.6115438 0.328302,-0.2510518 0.675918,-0.6694794 0.354051,-0.418425 0.566483,-0.8175372 0.122309,-0.2317524 0.263918,-0.2317524 0.212431,0 0.212431,0.180234 0,0.1931271 -0.321867,0.6566052 -0.315425,0.4570504 -0.695227,0.8239757 -0.823973,0.7917889 -1.937629,1.1007789 -0.669479,0.186694 -1.287459,0.186694 -0.901224,0 -1.808884,-0.386238 -1.454829,-0.6115444 -2.214431,-1.9376263 -0.630854,-1.1007786 -0.630854,-2.3367408 0,-1.2617133 0.656605,-2.381802 0.701664,-1.190901 1.982687,-1.8217577 0.933411,-0.4506119 2.014877,-0.4506119 1.853942,0 3.205775,1.2552749 0.643731,0.5986697 0.643731,0.8625984 0,0.070818 -0.06439,0.1287425 -0.06438,0.057925 -0.141635,0.057925 -0.128743,0 -0.30899,-0.2510517 -0.553609,-0.7660376 -1.461268,-1.2102111 -0.90766,-0.4506119 -1.918316,-0.4506119 -0.238186,0 -0.450612,0.045059 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Broadway;-inkscape-font-specification:Broadway;white-space:pre;fill:#000000;stroke:none;stroke-width:2.66934"
+           id="path1004" />
+        <path
+           d="m 34.893709,1.76472 -0.0193,1.5256394 0.03219,2.3431793 0.0193,1.5578263 q 0,1.6028875 -0.914097,2.542734 -0.534296,0.553609 -1.326084,0.817537 -0.791788,0.263918 -1.899004,0.263918 -1.622201,0 -2.497674,-0.650166 -0.386238,-0.2896776 -0.64373,-0.714541 -0.257493,-0.4312992 -0.257493,-0.7917888 0,-0.2768029 0.270367,-0.2768029 0.257493,0 0.315428,0.3926738 0.115871,0.8239757 1.029968,1.2745879 0.733853,0.360489 1.577139,0.360489 0.122309,0 0.399113,-0.01922 l 0.0064,-0.263918 0.01287,-1.7573838 0.02576,-4.6927943 -0.04506,-1.9118774 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Broadway;-inkscape-font-specification:Broadway;white-space:pre;fill:#000000;stroke:none;stroke-width:2.66934"
+           id="path1006" />
+        <path
+           d="m 36.335666,9.0581812 q 0.11587,0 0.270366,0.173801 0.482798,0.5278573 1.178026,0.8497238 0.701666,0.315426 1.38402,0.315426 0.753165,0 0.753165,-0.4570477 0,-0.2896772 -0.263929,-0.6501667 Q 39.393385,8.9229923 38.395603,7.8479621 37.140329,6.4896906 36.721904,5.8330855 36.168296,4.9640513 36.168296,4.1786983 q 0,-1.1844625 1.055718,-1.9376259 1.036405,-0.7402917 2.555609,-0.7402917 1.062154,0 1.950502,0.4312992 0.33474,0.1673678 0.57292,0.386238 0.244619,0.2188595 0.244619,0.366928 0,0.070818 -0.07081,0.1351756 -0.06437,0.057925 -0.135184,0.057925 -0.109435,0 -0.321865,-0.1995601 Q 41.672191,2.3504835 41.105708,2.1380545 40.539226,1.919195 40.017804,1.919195 q -0.321865,0 -0.527858,0.1416353 -0.199558,0.1351756 -0.199558,0.3540511 0,0.263918 0.251055,0.6437309 0.251054,0.3797996 0.849724,1.0106563 1.892566,2.014874 2.317428,2.7165403 0.444174,0.7402891 0.444174,1.4290812 0,0.5857955 -0.315428,1.1072171 -0.315427,0.5214216 -0.875473,0.8561598 -1.068592,0.637293 -2.607107,0.637293 -1.416206,0 -2.491236,-0.733851 -0.753164,-0.5149858 -0.753164,-0.804663 0,-0.083684 0.06437,-0.1480685 0.07081,-0.070818 0.160932,-0.070818 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Broadway;-inkscape-font-specification:Broadway;white-space:pre;fill:#000000;stroke:none;stroke-width:2.66934"
+           id="path1008" />
+      </g>
+    </mask>
+    <filter
+       id="mask-powermask-path-effect1012_inverse"
+       inkscape:label="filtermask-powermask-path-effect1012"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect1012_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect1012_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="147.58659"
+     inkscape:cy="145.60754"
+     inkscape:document-units="px"
+     inkscape:current-layer="text833"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false"
+     inkscape:snap-global="true"
+     inkscape:window-width="1267"
+     inkscape:window-height="1009"
+     inkscape:window-x="649"
+     inkscape:window-y="149"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       aria-label="VeCO"
+       transform="translate(3.6081386,1.737252)"
+       id="text833"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect835)">
+      <path
+         id="rect876"
+         style="fill:#000000;stroke:none;stroke-width:0.238622;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M -3.4892478,-1.6183612 H 64.006304 V 65.877191 H -3.4892478 Z"
+         inkscape:original-d="M -3.4892478,-1.6183612 H 64.006304 V 65.877191 H -3.4892478 Z"
+         mask="url(#mask-powermask-path-effect1012)"
+         inkscape:path-effect="#path-effect1012" />
+    </g>
+  </g>
+</svg>
