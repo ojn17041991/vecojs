@@ -2,6 +2,8 @@ const version = "1.0.2";
 const veco_class_name = "__veco_element";
 
 function veco_vectorize(element, resource_name) {
+    // TODO: Don't allow if element already has veco_class_name.
+    
     var request = new XMLHttpRequest();
     request.open("GET", resource_name);
     request.setRequestHeader("Content-Type", "image/svg+xml");
@@ -10,19 +12,23 @@ function veco_vectorize(element, resource_name) {
         var markup = new DOMParser().parseFromString(response, "image/svg+xml");
         var markup_element = markup.documentElement;
         
+        var element_attributes = element.attributes;
+        for (var i = 0; i < element_attributes.length; ++i) {
+            var attribute = element_attributes[i];
+            if (attribute.name == "class") {
+                // The classes have to be done 1-by-1, so we skip it here as we are dealing solely with ad-hoc values.
+                continue;
+            }
+            markup_element.setAttribute(attribute.name, attribute.value);
+        }
+        
         var element_class = element.attributes["class"];
         if (typeof element_class != "undefined") {
             var class_names = element_class.value.split(' ');
-            console.log(class_names);
             for (var i = 0; i < class_names.length; ++i) {
                 markup_element.classList.add(class_names[i]);
             }
             markup_element.classList.add(veco_class_name);
-        }
-        
-        var element_id = element.attributes["id"];
-        if (typeof element_id != "undefined") {
-            markup_element.id  = element_id.value;
         }
         
         element.parentElement.insertBefore(markup_element, element);
