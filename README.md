@@ -48,7 +48,7 @@
   <h2>Not Getting the Results You Want?</h2>
   Let's start with a bit of background information. To put it simply, SVGs are made up of paths. Each path contains a series of points that the browser uses to display and resize your image dynamically. A very basic SVG might only have one path, but a more complex design might require many more.
   <br><br>
-  The structure of an SVG's markup may vary depending on a number of factors such as the editor used to create the SVG, the use of masks or other effects, whether or not the file has been minified, etc. This makes it hard to standarize an approach to path detection for the purposes of recoloring (or any other manipulation). It is very likely that you will only want to target specific paths in your SVG in order to acheive the desired effect. This is where the "<b>css_path_selector</b>" parameter comes into play.
+  The structure of an SVG's markup may vary depending on a number of factors such as the editor used to create the SVG, the use of masks or other effects, whether or not the file has been minified, etc. This makes it hard to standarize an approach to path detection for the purposes of recoloring (or any other kind of manipulation). It is very likely that you will only want to target specific paths in your SVG in order to acheive the desired effect, which is not something the colorize functions do by default. This is where the "<b>css_path_selector</b>" parameter comes into play.
   <br><br>
   All of the <b>veco_colorize</b> functions have an optional "<b>css_path_selector</b>" parameter. It is essentially just a CSS selector used to target specific paths in your SVG markup. You may need to interrogate your SVG markup and experiment with CSS selectors to find the best solution to your individual problem, but no SVG will present an unsolvable problem, even if it means editing the SVG markup with a text editor to add IDs or class names to your path elements before importing the file. Here are a few examples of how a CSS selector can be used:
   <br><br><br>
@@ -63,7 +63,7 @@
       "path:nth-child(3) - Target all paths that are the 3rd child of their parent element.
     </li>
     <li>
-      "path#my_path" - Target all paths with the ID "my_path".
+      "path#my_path" - Target the path with the ID "my_path".
     </li>
     <li>
       "path.target_path" - Target all paths with the class name "target_path".
