@@ -1,8 +1,10 @@
-const version = "1.0.2";
+const version = "1.0.5";
 const veco_class_name = "__veco_element";
 
 function veco_vectorize(element, resource_name) {
-    // TODO: Don't allow if element already has veco_class_name.
+    if (typeof element.attributes["class"] != "undefined" && element.attributes["class"].value.indexOf(veco_class_name) != -1) {
+        return;
+    }
     
     var request = new XMLHttpRequest();
     request.open("GET", resource_name);
