@@ -1,7 +1,6 @@
 const version = "1.0.2";
 const veco_class_name = "__veco_element";
 
-// CONVERT A BLANK SVG ELEMENT INTO ITS NATIVE MARKUP
 function veco_vectorize(element, resource_name) {
     var request = new XMLHttpRequest();
     request.open("GET", resource_name);
@@ -13,7 +12,11 @@ function veco_vectorize(element, resource_name) {
         
         var element_class = element.attributes["class"];
         if (typeof element_class != "undefined") {
-            markup_element.classList.add(element_class.value);
+            var class_names = element_class.value.split(' ');
+            console.log(class_names);
+            for (var i = 0; i < class_names.length; ++i) {
+                markup_element.classList.add(class_names[i]);
+            }
             markup_element.classList.add(veco_class_name);
         }
         
@@ -28,7 +31,6 @@ function veco_vectorize(element, resource_name) {
     request.send();
 }
 
-// COLORIZE A SPECIFIC SVG BY PASSING THE SVG ELEMENT'S ID
 function veco_colorize_by_id(
     id,
     color,
@@ -37,7 +39,6 @@ function veco_colorize_by_id(
     __colorize(document.getElementById(id).querySelectorAll(css_path_selector), color);
 }
 
-// COLORIZE ALL SVGS THAT SHARE A CLASSNAME
 function veco_colorize_by_class_name(
     class_name,
     color,
@@ -49,7 +50,6 @@ function veco_colorize_by_class_name(
     }
 }
 
-// COLORIZE ALL SVGS
 function veco_colorize_all(
     color,
     css_path_selector = "path"
@@ -60,7 +60,6 @@ function veco_colorize_all(
     }
 }
 
-// PRIVATE FUNCTIONS
 function __colorize(
     paths,
     color
