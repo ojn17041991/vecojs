@@ -74,5 +74,6 @@ function __colorize(
 ) {
     for (var i = 0; i < paths.length; ++i) {
         paths[i].style.fill = color;
+        paths[i].style.stroke = color;
     }
 }
